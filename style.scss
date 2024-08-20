@@ -1,0 +1,239 @@
+@import 'reset';
+body {
+	margin: 20px;
+	padding-top: 40px;
+}
+// task5
+// body {
+// 	background: rgb(84, 84, 212);
+// 	background: linear-gradient(
+// 		299deg,
+// 		rgba(84, 84, 212, 0.42) 16%,
+// 		rgba(154, 212, 84, 1) 91%
+// 	);
+// 	width: 100vw;
+// 	height: 100vh;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+// form {
+// 	width: 500px;
+// 	height: 400px;
+// 	box-shadow: 0px 3px 18px 16px gray;
+// 	margin: 0 auto;
+// 	border-radius: 10px;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	flex-wrap: wrap;
+// 	padding: 20px;
+// }
+// input {
+// 	flex-basis: 100%;
+// 	display: flex;
+// 	justify-content: center;
+// 	border: none;
+// 	margin-bottom: 10px;
+// }
+// .img__container {
+// 	width: 400px;
+// 	height: 270px;
+// }
+// img {
+// 	width: 100%;
+// 	height: 100%;
+// 	object-fit: contain;
+// }
+
+// button {
+// 	flex-basis: 180px;
+// 	border: 2px solid #5f5fa8;
+// 	height: 50px;
+// 	border-radius: 5px;
+// 	transition: 0.3s;
+// 	&:hover {
+// 		background-color: #5f5fa8;
+// 	}
+// }
+// .btnDelete {
+// 	margin-left: 100px;
+// }
+
+// #notification {
+// 	font-size: 14px;
+// 	color: #cd1616;
+// }
+
+// task7.1
+/* body {
+	margin: 20px;
+}
+ul li {
+	list-style: disc;
+}
+ul {
+	padding-left: 50px;
+}
+.view,
+textarea {
+	width: 400px;
+	height: 160px;
+	border: 1px solid black;
+	padding: 4px;
+}
+span {
+	margin: 20px 0 10px 0;
+}
+textarea {
+	display: block;
+	font-family: Times, serif;
+	font-size: 16px;
+} */
+
+//task 7.2
+/* th {
+	text-align: center;
+	font-weight: bold;
+}
+
+td {
+	width: 150px;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.nw {
+	background-color: #999;
+}
+
+.n {
+	background-color: #03f;
+	color: #fff;
+}
+
+.ne {
+	background-color: #ff6;
+}
+
+.w {
+	background-color: #ff0;
+}
+
+.c {
+	background-color: #60c;
+	color: #fff;
+}
+
+.e {
+	background-color: #09f;
+	color: #fff;
+}
+
+.sw {
+	background-color: #963;
+	color: #fff;
+}
+
+.s {
+	background-color: #f60;
+	color: #fff;
+}
+
+.se {
+	background-color: #0c3;
+	color: #fff;
+}
+
+textarea {
+	width: 100%;
+	height: 116px;
+	resize: none;
+	display: block;
+}
+td {
+	position: relative;
+	max-width: 150px;
+	height: 116px;
+}
+.td-btns {
+	position: absolute;
+	bottom: -20px;
+
+	z-index: 1;
+}
+.btn {
+	background-color: #d0c9c9;
+	border: 1px solid black;
+} */
+
+// task 7.3
+/* #mouse {
+	&:focus {
+		border: 1px dashed black;
+	}
+	position: fixed;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	outline: none;
+} */
+
+//task8
+/* td select,
+td input {
+	width: 150px;
+}
+
+#diagram td {
+	vertical-align: bottom;
+	text-align: center;
+	padding: 10px;
+}
+
+#diagram div {
+	margin: auto;
+} */
+
+// task9
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#prompt-form {
+	display: inline-block;
+	padding: 5px 5px 5px 70px;
+	width: 276px;
+	border: 1px solid black;
+	background: white url(https://en.js.cx/clipart/prompt.png) no-repeat left 5px;
+	vertical-align: middle;
+}
+
+#prompt-form-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#prompt-form-container:before {
+	display: inline-block;
+	height: 100%;
+	content: '';
+	vertical-align: middle;
+}
+
+#prompt-form input[name='text'] {
+	display: block;
+	margin: 5px;
+	width: 188px;
+}
